@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html>
-<ul class="nav justify-content-end">
 	<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
 		<div class="pos-f-t">
-		  <div class="collapse" id="navbarToggleExternalContent">
+		<%=  <div class=""collapse" id="navbarToggleExternalContent"">
 		    <div class="bg-inverse p-4">
-		      <h4 class="text-white">Collapsed content</h4>
-		      <span class="text-muted">Toggleable via the navbar brand.</span>
-		    </div>
+		      <h4 class="text-white">Home</h4>
+		      <h4 class="text-white">Contact</h4>
+		      <h4 class="text-white">About</h4>
+		      <h4 class="text-white">ITC</h4>
+		      <h4 class="text-white">Work</h4>
+		      <h4 class="text-white">Social</h4>
+		    </div> %>
+
+		    <div class="main-menu overlay overlay open">
+		    	<div class="main-menu-wrap">
+		    		<div class="menu-main-links">
+		    			<div class="main-menu-container">
+		    				<ul id="menu-main" class="menu">
+		    					<%=links %>
+		    				</ul>
+
 		  </div>
 		  <nav class="navbar navbar-inverse bg-inverse">
 		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,7 +28,6 @@
 		  </nav>
 		</div>
 	</nav>
-</ul>
 
   <head>
     <title>Portfolio</title>
