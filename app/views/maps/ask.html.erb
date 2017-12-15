@@ -1,0 +1,23 @@
+<center>
+	<section class='container'>
+		<h1> Where are you? </h1>
+		<p> A Jay Production App </p>
+	</section>
+</center>
+
+<center>
+<%= form_tag show_path, method: "get", html: { class: "form" } do %>
+	<div class="form-group col-sm-6 col-md-offset-3">
+		<%= text_field_tag(:location, "", placeholder: "Enter Location", class: "form-control") %>
+	</div>
+	<div class="form-group col-sm-6 col-md-offset-3">
+		<%= text_field_tag(:zip, "", placeholder: "Enter Food of Choice", class: "form-control") %>
+	</div>
+
+	<center>
+		<div class="form-group text-center">
+			<%=submit_tag "Search", class: " gmaps-btn btn btn-outline-info text-align: center;" %>
+			<% end %>
+		</div>
+	</center>
+</center>
