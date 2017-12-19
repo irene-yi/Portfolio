@@ -1,36 +1,68 @@
 <!DOCTYPE html>
 <html>
-	
+
 	<!-- Navbar Color -->
 	<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
 	
-		<!-- Navbar -->
+		<!-- Image and text -->
+		<nav class="navbar navbar-light bg-faded">
+			<a class="navbar-brand" href="#">
+				<img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+				Bootstrap
+			</a>
+		</nav>
+
+		<!-- Navbar Improved -->
+		<ul class="nav">
+			<li class="nav-item">
+				<a class="nav-link" href="#">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Contact</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">ITC</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Work</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Social</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Maps</a>
+			</li>
+		</ul>
+
+		<!-- Navbar 
 		<div class="pos-f-t">
-		  <div class="collapse" id="navbarToggleExternalContent">
-		    <div class="bg-inverse p-4">
-		      <h4 class="text-white">Collapsed content</h4>
-		      <span class="text-muted">Home</span>
-		      <span class="text-muted">Contact</span>
-		      <span class="text-muted">About</span>
-		      <span class="text-muted">ITC</span>
-		      <span class="text-muted">Work</span>
-		      <span class="text-muted">Social</span>
-		      <span class="text-muted">Maps</span>
+			<div class="collapse" id="navbarToggleExternalContent">
+				<div class="bg-inverse p-4">
+			    	<h4 class="text-white">Collapsed content</h4>
+			    	<span class="text-muted">Home</span>
+			    	<span class="text-muted">Contact</span>
+			    	<span class="text-muted">About</span>
+			    	<span class="text-muted">ITC</span>
+			    	<span class="text-muted">Work</span>
+			    	<span class="text-muted">Social</span>
+			    	<span class="text-muted">Maps</span>
+		    	</div>
+			</div>
 
-		    </div>
-		  </div>
-		  <nav class="navbar navbar-inverse bg-inverse">
-		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-		      <span class="navbar-toggler-icon"></span>
-		    </button>
-		  </nav>
-		</div>
-
+			<nav class="navbar navbar-inverse bg-inverse">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			    </button>
+			</nav>
+		</div> -->
 	</nav>
 
 	<head>
-	    <title>Portfolio</title>
-	    <%= csrf_meta_tags %>
+		<title>Portfolio</title>
+		<%= csrf_meta_tags %>
 
 	    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 	    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
