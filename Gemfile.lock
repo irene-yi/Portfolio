@@ -176,6 +176,8 @@ GEM
     tzinfo (1.2.4)
       execjs (>= 0.3.0, < 3)
       thread_safe (~> 0.1)
+    uglifier (4.0.2)
+      execjs (>= 0.3.0, < 3)
     web-console (3.5.1)
       actionview (>= 5.0)
       activemodel (>= 5.0)
@@ -206,6 +208,7 @@ DEPENDENCIES
   sqlite3
   turbolinks (~> 5)
   tzinfo-data
+  uglifier
   web-console (>= 3.3.0)
 
 BUNDLED WITH
