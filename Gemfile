@@ -33,7 +33,7 @@ gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
   gem 'sqlite3'
-  gem 'rspec-rails', '2.13.1'
+  gem 'rspec-rails', '3.7.2'
 
 end
 
