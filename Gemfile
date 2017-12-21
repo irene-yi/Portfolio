@@ -55,4 +55,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap', '~> 4.0.0.beta2.1'
 gem 'jquery-rails'
-gem 'dotenv-rails'
+gem 'dotenv-rails', :groups => [:development, :test]
